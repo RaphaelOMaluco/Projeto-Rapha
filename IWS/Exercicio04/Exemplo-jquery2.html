@@ -1,0 +1,26 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+
+	<a href="#"id="esconder">clique para esconder</a>
+		/br>
+	<a href="#"id="exibir">clique para exibir</a>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus saepe eos quam nam quisquam, animi itaque enim explicabo illum. Id quo ea harum facilis qui deserunt expedita commodi quidem quas?</p>
+
+	<script>
+		$("#esconder").click(function(event){
+			$("p").hide();
+		
+		});
+		$("#exibir").click(function(event){
+			$("p").show();
+		
+		});
+	</script>
+</body>
+</html>

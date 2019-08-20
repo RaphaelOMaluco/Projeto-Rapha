@@ -1,0 +1,25 @@
+body{
+	background:url(../imagens/imagem.png) repeat;
+    position: absolute;
+    width: auto;
+    height: auto;
+    margin:10px auto;
+    padding: 20px;
+	background-color: #fa7f72;
+}
+#s1{
+	background-color:#d3d3d3;
+	width: 960px;
+	height: auto;
+	margin: auto;
+}
+#h1s{
+	text-align: center;
+	color: #fa7f72;
+	text-transform: uppercase;
+
+}
+p{	
+	 border: 4px solid #fa7f72 ;
+	 padding: 10px;
+}

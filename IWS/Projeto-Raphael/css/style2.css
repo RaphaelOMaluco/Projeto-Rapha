@@ -1,0 +1,35 @@
+#menu ul {
+    text-align: center;
+    list-style:none;
+}
+#menu ul li { display: inline; }
+#menu ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+
+    /* visual do link */
+    transition: background-color 1s , color 1s , border-bottom 1s; 
+	transition-timing-function: ease-out;
+    background-color:#039be5;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #039be5;
+}
+#menu ul li a:hover {
+    background-color:#b3e5fc;
+    color: #6D6D6D;
+    border-bottom:3px solid #84ffff;
+}
+main{
+	margin: auto;
+	width: 960px;
+	height: 200px;
+}
+footer{
+    margin: auto;
+    width: 960px;
+    height: 200px;
+    margin-top: 400px;
+    text-align: center;
+}
+
